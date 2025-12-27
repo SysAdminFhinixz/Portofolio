@@ -1,0 +1,246 @@
+:root {
+    --mainColor : #0F172A;
+    --secondaryColor: #1E293B;
+    --acsentColor: #38BDF8;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+
+/* NAVBAR */
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99999;
+}
+
+
+.nav-link.active {
+    color: var(--acsentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: 0.4s;
+}
+
+.nav-link {
+  transition : color 0.3s ease;
+}
+.nav-link:hover {
+  color: var(--acsentColor) !important;
+}
+/* END NAVBAR */
+
+
+
+
+/* HERO */
+.color-acsent {
+    color: var(--acsentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--acsentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+
+
+.social-icon-footer svg {
+    margin-right: 0.5em;
+    margin-bottom: 5px;
+}
+
+.social-icon a svg:hover path {
+    fill: var(--acsentColor);
+    transition: 0.3s ease;
+}
+
+
+/* END HERO */
+
+
+/* ABOUT */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--acsentColor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+
+#ABOUT {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secondaryColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+/* END ABOUT */
+
+
+/* Skill */
+
+#skill {
+  min-height: 600px;
+  width: 100%;
+  color: #fff;
+}
+
+#skill img {
+  width: 140px;
+  margin: 15px;
+  transition: 0.3s ease;
+}
+
+
+
+
+/* end skill */
+
+
+/* Certificate */
+#certificate {
+  padding: 80px 0;
+}
+
+.certificate-card {
+  background-color: var(--secondaryColor);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.certificate-card:hover {
+  transform: translateY(-10px);
+}
+
+.certificate-card img {
+  border-radius: 6px;
+}
+
+.certificate-card h5 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.certificate-card p {
+  color: var(--acsentColor);
+  font-size: 14px;
+}
+
+/* Certificate END */
+
+
+/* Contact */
+#contact {
+  padding: 80px 0;
+}
+
+.contact-box {
+  background-color: var(--secondaryColor);
+  padding: 30px 20px;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-8px);
+}
+
+.contact-box h5 {
+  color: var(--acsentColor);
+  margin-bottom: 10px;
+}
+
+.contact-box p {
+  color: #fff;
+  margin: 0;
+}
+
+/* Contact END */
+
+
+            /* HERO WAVE */
+
+/* SVG wave */
+.hero-wave {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 35vh;
+    z-index: 1;
+}
+
+.hero-wave path {
+    fill: var(--secondaryColor);
+}
+
+/* supaya konten hero di atas wave */
+#hero .container {
+    position: relative;
+    z-index: 2;
+}
+
+
+
+
+
