@@ -127,9 +127,9 @@ hr {
     width: 100%;
     background-color: var(--secondaryColor);
     color: #fff;
-    padding-top: 40px;
+    padding-top: -2px;
     padding-bottom: 80px;
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 
 /* END ABOUT */
@@ -226,7 +226,7 @@ hr {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 35vh;
+    height: 180px;
     z-index: 1;
 }
 
