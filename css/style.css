@@ -127,9 +127,9 @@ hr {
     width: 100%;
     background-color: var(--secondaryColor);
     color: #fff;
-    padding-top: 80px;
+    padding-top: 40px;
     padding-bottom: 80px;
-    margin-bottom: 80px;
+    margin-bottom: 0;
 }
 
 /* END ABOUT */
